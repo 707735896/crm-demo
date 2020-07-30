@@ -1,0 +1,48 @@
+html, body {
+    position: relative;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    min-width: 1346px;
+    // min-height: 768px;
+    overflow: auto;
+    font-size: 16px;
+    background-color: #EEF1F9;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #333!important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #333!important;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #333!important;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #333!important;
+}
